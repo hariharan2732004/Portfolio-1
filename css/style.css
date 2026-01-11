@@ -9907,3 +9907,26 @@ html, body {
   margin-right: 12px;   /* 👈 space between icon & text */
   font-size: 18px;
 }
+.ftco-hero,
+.hero-wrap {
+  min-height: 100vh;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 768px) {
+
+  .ftco-section {
+    padding: 3em 0;
+  }
+
+  .slider-text {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .owl-dots {
+    display: none;
+  }
+
+}
