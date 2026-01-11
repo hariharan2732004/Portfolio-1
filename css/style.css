@@ -9907,3 +9907,45 @@ html, body {
   margin-right: 12px;   /* 👈 space between icon & text */
   font-size: 18px;
 }
+html, body {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;   /* stop left-right scroll */
+  overflow-y: auto;     /* allow up-down scroll */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (max-width: 768px) {
+  section {
+    padding: 40px 15px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+.hero {
+  min-height: 100vh;
+  height: auto;
+}
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: auto;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+}
+
